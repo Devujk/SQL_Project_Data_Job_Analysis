@@ -49,7 +49,7 @@ LIMIT 10;
 - **Wide salary range:** Top-paying DA roles span from $184,000 to $650,000 — but the gap is front-loaded, with Mantys ($650K) and Meta ($336K) far ahead of the rest, which cluster closer together between $184K–$256K.
 - **Remote-first roles dominate:** All 10 top-paying postings are listed as remote ("Anywhere") and full-time, suggesting the highest salaries aren't tied to a specific office location.
 
-![Top paying Data Analyst Jobs](assets\1_top_paying_jobs.png)
+![Top paying Data Analyst Jobs](assets/1_top_paying_jobs.png)
 *Bar chart visualizing the salary for the top 10 highest-paying Data Analyst postings; generated with the help of Claude from the obtained SQL query results*
 
 (a) Germany-specific findings
@@ -76,7 +76,7 @@ LIMIT 10;
 - Only 4 Germany postings had a listed salary, so this is a small sample, not the full market.
 - Research-focused employers may pay more: Fraunhofer stands well above the other 3 (more operational) companies.
 
-![Top paying Data Analyst Jobs for German Market 2023](assets\1b_top_paying_jobs_germany.png)
+![Top paying Data Analyst Jobs for German Market 2023](assets/1b_top_paying_jobs_germany.png)
 
 *Bar chart visualizing salary for the top-paying Data Analyst postings in Germany; generated with the help of Claude from the SQL query results*
 
@@ -144,7 +144,7 @@ LIMIT 5
 - Top 5 splits into two tiers: SQL/Excel lead (65K+ each), Python/Tableau/Power BI form a closer second tier (39K–57K each).
 - Excel ranking above Python is a reminder that spreadsheet skills still matter, even in technical DA roles.
 
-![Most In demand Skills for DA role](assets\3_top_demanded_skills.png)
+![Most In demand Skills for DA role](assets/3_top_demanded_skills.png)
 *Bar chart visualizing the top 5 most in-demand skills for Data Analyst roles; generated with the help of Claude from the SQL query results.*
 
 ### **Top Paying DA Skills**
@@ -168,7 +168,7 @@ LIMIT 25
 - Solidity ($179K) and Couchbase ($160K) lead the credible results — both niche, specialized skills (blockchain, NoSQL).
 - DevOps tools cluster near the top: Terraform ($147K), GitLab ($134K), Kafka ($130K) — cross-over DevOps skills pay a premium even in analyst roles.
 
-![Highest Paying DA Skills](assets\4_top_paying_skills.png)
+![Highest Paying DA Skills](assets/4_top_paying_skills.png)
 *Bar chart visualizing the top 12 highest-paying skills; generated with the help of Claude from the SQL query results.*
 
 ### **Optimal DA Skills**
@@ -201,7 +201,7 @@ LIMIT 25
 - Python and Tableau offer the highest volume at solid (not top) pay: 236 and 230 postings, both averaging just over $100K — the safest bets even if not the highest earners.
 - Data quality note: "sas" appears twice under different skill_ids with identical numbers — likely a duplicate entry, not two real skills.
 
-![Optimal DA Skills](assets\5_optimal_skills.png)
+![Optimal DA Skills](assets/5_optimal_skills.png)
 *Scatter plot visualizing demand against average salary for skills with 10+ postings; generated with the help of Claude from the SQL query results.*
 ## **What I learned**
 This project pushed me to go beyond basic queries and think in terms of real data workflows:
