@@ -115,15 +115,9 @@ top_paying_jobs.salary_year_avg DESC
 - Python (7 of 8) and Tableau (6 of 8) are close behind, both near-standard alongside SQL.
 - 2 of the original top-10 postings list no skills at all in the dataset — a data gap, not a market signal.
 
-| Rank | Overall | Remote | Germany |
-|---|---|---|---|
-| 1 | SQL (92,628) | SQL (7,291) | SQL (217) |
-| 2 | Excel (67,031) | Excel (4,611) | Python (153) |
-| 3 | Python (57,326) | Python (4,330) | Excel (141) |
-| 4 | Tableau (46,554) | Tableau (3,745) | Tableau (119) |
-| 5 | Power BI (39,468) | Power BI (2,609) | Power BI (91) |
+![Skills Required by Top-Paying Data Analyst Jobs](assets/2_top_paying_job_skills.png)
 
-*Table comparing the top 5 most in-demand Data Analyst skills across three markets based on the SQL query results.*
+*Bar chart showing the most frequently required skills among the top-paying remote Data Analyst jobs.*
 ### **Most In-Demand DA Skills**
 Counts how often each skill appears across all Data Analyst postings overall.
 ```sql
@@ -144,8 +138,15 @@ LIMIT 5
 - Top 5 splits into two tiers: SQL/Excel lead (65K+ each), Python/Tableau/Power BI form a closer second tier (39K–57K each).
 - Excel ranking above Python is a reminder that spreadsheet skills still matter, even in technical DA roles.
 
-![Most In demand Skills for DA role](assets/3_top_demanded_skills.png)
-*Bar chart visualizing the top 5 most in-demand skills for Data Analyst roles; generated with the help of Claude from the SQL query results.*
+| Rank | Overall | Remote | Germany |
+|---|---|---|---|
+| 1 | SQL (92,628) | SQL (7,291) | SQL (217) |
+| 2 | Excel (67,031) | Excel (4,611) | Python (153) |
+| 3 | Python (57,326) | Python (4,330) | Excel (141) |
+| 4 | Tableau (46,554) | Tableau (3,745) | Tableau (119) |
+| 5 | Power BI (39,468) | Power BI (2,609) | Power BI (91) |
+
+*Table comparing the top 5 most in-demand Data Analyst skills across three markets based on the SQL query results.*
 
 ### **Top Paying DA Skills**
 Calculates the average salary associated with each skill for Data Analyst roles, run for both all postings and remote-only postings.
