@@ -43,7 +43,7 @@ INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id --we need skills that  are available for top paying jobs so inner join so that null won't be retrieved
 WHERE
     job_title_short = 'Data Analyst' AND
-    job_location = 'Germany'
+    job_country = 'Germany'
 GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 5
